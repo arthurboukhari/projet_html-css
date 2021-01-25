@@ -11,11 +11,8 @@ body{
     background-color: rgb(255, 255, 255);
     text-align: center;
     background-image:url(https://media4.giphy.com/media/I7V6Te1Ka0U00/source.gif) ;
-    background-size: cover;
-
-    
+    background-size: cover;    
 }
-
 
 .bowl{
     position : absolute;
@@ -50,9 +47,6 @@ body{
     transform: translate(-50%,-50%);
 }
 
-
-
-
 #page{
     background-color: rgb(224, 220, 220);
     border : ridge rgb(224, 224, 224);
@@ -61,12 +55,7 @@ body{
     flex-basis: 50%;
     display : flex;
     flex-wrap : wrap;
-    flex-direction: row;
-    
-    /* justify-content: center; */
-
-
- 
+    flex-direction: row; 
 }
 
 #presentation{
@@ -76,7 +65,6 @@ body{
 
 #Photo img{
     border-radius: 50%;
-
 }
 
 
@@ -89,35 +77,26 @@ body{
     position: absolute;
     left: -40%;
     top: 40%;
-
-
 }
 
 #Contact{
     position: absolute;
     left: 110%;
     top: 40%;
-
-
 }
 
 
-
 #date{
-
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: rgb(92, 91, 91);
 }
 
 #date2{
-
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: rgb(92, 91, 91);
 }
-
-
 
 
 
@@ -127,8 +106,6 @@ body{
     flex-basis: 30%;
     margin-top: 120px;
     margin-left: 15%;
-
-
 }
 
 #diplome_en_cours_dacquisition{
@@ -136,10 +113,7 @@ body{
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
     flex-basis: 30%;
     margin-left: 55%;
-
-
 }
-
 
 
 #bande_diplome_obtenu{
@@ -148,32 +122,18 @@ body{
 }
 
 
-
 .blanctab{
     border: ridge rgb(224, 224, 224);
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
 }
 
-
-
 #bande_diplome-en-cours{
     background-color: rgb(66, 66, 66);
     color: white;
-
-    
-
 }
-
-
-
-
-
-
-
 
 #competence{
     flex-basis: 100%;
-
 }
 
 #langages{
@@ -184,7 +144,6 @@ body{
     background-color: rgb(66, 66, 66);
     color: white;
     flex-basis: 33%;
-
 }
 
 #application{
@@ -194,7 +153,6 @@ body{
     background-color: rgb(66, 66, 66);
     color: white;
     flex-basis: 33%;
-
 }
 
 #langue{
@@ -204,7 +162,6 @@ body{
     background-color: rgb(66, 66, 66);
     color: white;
     flex-basis: 33%;
-
 }
 
 
@@ -228,7 +185,6 @@ nav ul {
     padding:0;
     margin:0;
     position: relative;
-
 }
      
 nav ul li {
@@ -264,3 +220,226 @@ nav ul li:hover ul li {
 }
 
 
+@media(min-height: 680px){
+    p,h3,h4,h5,h6{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: small;
+    }
+    h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    
+    body{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        background-image:url(https://media4.giphy.com/media/I7V6Te1Ka0U00/source.gif) ;
+        background-size: cover;    
+    }
+    
+    .bowl{
+        position : absolute;
+        border-radius: 50%;
+        width: 0%;
+        height: 0;
+        border: 15px solid rgb(163, 160, 160);
+        left : 50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    .bowl1{
+        position: absolute;
+        top: 200%;
+        left: 50%;
+        display:none;
+    
+    }
+    .bowl2{
+        position: absolute;
+        top: 400%;
+        left: 50%;
+        display:none;
+    }
+    
+    .line{
+    
+        position: absolute;
+        width : 0.2rem;
+        height : 400%;
+        left : 50%;
+        background-color:rgb(163, 160, 160);
+        top: 300%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    
+    #page{
+        background-color: rgb(224, 220, 220);
+        border : ridge rgb(224, 224, 224);
+        box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+    }
+    
+    #presentation{
+        background-color: rgb(163, 160, 160);
+    }
+    
+    #Photo img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+    #reseaux{
+        position: absolute;
+        top: 25%;
+        left: 45.5%;
+    }
+    #linkedin {
+        position: absolute;
+        left: -70%;
+        top: 40%;
+    }
+    
+    #Contact{
+        position: absolute;
+        left: 115%;
+        top: 40%;
+    }
+    
+    
+    #date{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        color: rgb(92, 91, 91);
+        display:none;
+    }
+    
+    #date2{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        color: rgb(92, 91, 91);
+        display:none;
+    }
+    
+    
+    
+    #diplome_obtenu{
+        border: ridge rgb(224, 224, 224);
+        box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+
+    }
+    
+    #diplome_en_cours_dacquisition{
+        border: ridge rgb(224, 224, 224);
+        box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+        margin-top: -500px;
+        flex-basis: auto;
+        
+    }
+    
+    
+    #bande_diplome_obtenu{
+        background-color: rgb(66, 66, 66);
+        color: white;
+    }
+    
+    
+    .blanctab{
+        border: ridge rgb(224, 224, 224);
+        box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+    }
+    
+    #bande_diplome-en-cours{
+        background-color: rgb(66, 66, 66);
+        color: white;
+    }
+    
+    #competence{
+        flex-basis: 100%;
+    }
+    
+    #langages{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: ridge rgb(224, 224, 224);
+    
+        box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        flex-basis: 100%;
+    }
+    
+    #application{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: ridge rgb(224, 224, 224);
+        box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        flex-basis: 100%;
+    }
+    
+    #langue{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: ridge rgb(224, 224, 224);
+        box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        flex-basis: 100%;
+    }
+    
+    
+    
+    
+    
+    nav{
+        background-color: #000000;
+        flex-basis: 100%;
+    }
+    li {
+        list-style:none !important;
+        color:#FFF;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+    }
+         
+    nav ul {
+        background-color:rgb(0, 0, 0);
+        padding:0;
+        margin:0;
+        position: relative;
+    }
+         
+    nav ul li {
+        list-style: none;
+        line-height:44px;
+        float:left;
+        background-color:#000000;
+    }
+         
+    nav ul li a {
+        color:#FFF;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+    }
+    
+    li a:hover {
+        border-bottom:3px #FFF solid;
+    }
+    
+    nav ul li ul { display:none; 
+    }
+         
+    nav ul li:hover ul { 
+        z-index:99999;
+        display:list-item !important;
+        position:absolute;
+    
+    }
+         
+    nav ul li:hover ul li {
+        float:none;
+    }
+
+}
