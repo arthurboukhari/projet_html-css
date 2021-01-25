@@ -7,90 +7,159 @@ h2{
 }
 
 
-
-#linkedin{
-    position: absolute;
-    top: 13%;
-    left: 47%;
-}
-
-#mail{
-    position: absolute;
-    top: 13%;
-    left: 50%;
-}
-
-#page{
-    background-color: rgb(224, 220, 220);
-    border: ridge rgb(224, 224, 224);
-    width: 45% ;
-    box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;   
-}
-
-
 body{
     background-color: rgb(255, 255, 255);
     text-align: center;
+    background-image:url(https://media4.giphy.com/media/I7V6Te1Ka0U00/source.gif) ;
+    background-size: cover;
+
+    
 }
 
-#date{
+
+.bowl{
+    position : absolute;
+    border-radius: 50%;
+    width: 0%;
+    height: 0;
+    border: 15px solid rgb(163, 160, 160);
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+.bowl1{
     position: absolute;
+    top: 200%;
+    left: 50%;
+
+}
+.bowl2{
+    position: absolute;
+    top: 400%;
+    left: 50%;
+    
+}
+
+.line{
+
+    position: absolute;
+    width : 0.2rem;
+    height : 400%;
+    left : 50%;
+    background-color:rgb(163, 160, 160);
+    top: 300%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+#page{
+    background-color: rgb(224, 220, 220);
+    border : ridge rgb(224, 224, 224);
+    box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+
+    flex-basis: 50%;
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction: row;
+    
+    /* justify-content: center; */
+
+
+ 
+}
+
+#presentation{
+    flex-basis: 100%;
+    background-color: rgb(163, 160, 160);
+}
+
+#Photo img{
+    border-radius: 50%;
+
+}
+
+
+#reseaux{
+    position: absolute;
+    top: 18.8%;
+    left: 45.5%;
+}
+#linkedin {
+    position: absolute;
+    left: -40%;
+    top: 40%;
+
+
+}
+
+#Contact{
+    position: absolute;
+    left: 110%;
+    top: 40%;
+
+
+}
+
+
+
+#date{
+
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: rgb(92, 91, 91);
-    top: 100px;
-    left: 380px;    
 }
 
 #date2{
-    position: absolute;
+
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: rgb(92, 91, 91);
-    top: 50px;
-    left: -70px;    
 }
 
 
 
-#experiance{
-    position: relative;
-    top: 150px ;
-    left: 15px;
+
+
+#diplome_obtenu{
+    border: ridge rgb(224, 224, 224);
+    box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+    flex-basis: 30%;
+    margin-top: 120px;
+    margin-left: 15%;
+
+
 }
+
+#diplome_en_cours_dacquisition{
+    border: ridge rgb(224, 224, 224);
+    box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
+    flex-basis: 30%;
+    margin-left: 55%;
+
+
+}
+
+
 
 #bande_diplome_obtenu{
     background-color: rgb(66, 66, 66);
     color: white;
-    height: 50px;
-    margin-top: 0px;
 }
 
 
 
 .blanctab{
     border: ridge rgb(224, 224, 224);
-    width: 45% ;
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
 }
 
-#diplome_en_cours_dacquisition{
-    border: ridge rgb(224, 224, 224);
-    width: 45% ;
-    box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
-    position: relative;
-    top: 25%;
-    left: 50%;
-}
+
 
 #bande_diplome-en-cours{
     background-color: rgb(66, 66, 66);
     color: white;
-    height: 50px;
-    margin-top: 0px;
+
     
 
 }
@@ -103,56 +172,49 @@ body{
 
 
 #competence{
-    position: relative;
-    top: 200px;
-    
+    flex-basis: 100%;
+
 }
 
 #langages{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: ridge rgb(224, 224, 224);
-    width: 20% ;
-    padding-bottom: 25px;
+
     box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
     background-color: rgb(66, 66, 66);
-    position: relative;
     color: white;
-    left: 140px;
-    top: 20px;
+    flex-basis: 33%;
+
 }
 
 #application{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: ridge rgb(224, 224, 224);
-    width: 20% ;
-    padding-bottom: 110px;
     box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
     background-color: rgb(66, 66, 66);
-    position: relative;
     color: white;
-    left: 340px;
-    top: -272px;
+    flex-basis: 33%;
+
 }
 
 #langue{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: ridge rgb(224, 224, 224);
-    width: 20% ;
-    padding-bottom: 195px;
     box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
     background-color: rgb(66, 66, 66);
-    position: relative;
     color: white;
-    left: 540px;
-    top: -567px;
+    flex-basis: 33%;
+
 }
 
 
 
 
 
-
-
+nav{
+    background-color: #000000;
+    flex-basis: 100%;
+}
 li {
     list-style:none !important;
     color:#FFF;
@@ -166,8 +228,7 @@ nav ul {
     padding:0;
     margin:0;
     position: relative;
-    left: 521px;
-    top: 5px;
+
 }
      
 nav ul li {
@@ -195,8 +256,7 @@ nav ul li:hover ul {
     z-index:99999;
     display:list-item !important;
     position:absolute;
-    margin-top:-5px;
-    margin-left:-460px;
+
 }
      
 nav ul li:hover ul li {
