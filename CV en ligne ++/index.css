@@ -1,19 +1,19 @@
-p,h3,h4,h5,h6{
+ p,h3,h4,h5,h6{     /* initilisation du texte */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: small;
 }
-h2{
+h2{ /* initilisation de h2 */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
-body{
+body{ /* Bloc pour definir mon arriere plan */
     background-color: rgb(255, 255, 255);
     text-align: center;
     background-size: cover;    
 }
 
-.bowl{
+.bowl{ /* Bloc pour definir les mesures et detail de mes boulles */
     position : absolute;
     border-radius: 50%;
     width: 0%;
@@ -22,20 +22,20 @@ body{
     left : 50%;
     transform: translate(-50%,-50%);
 }
-.bowl1{
+.bowl1{ /* Bloc pour definir l'emplacement de ma premiere boulle */
     position: absolute;
     top: 200%;
     left: 50%;
 
 }
-.bowl2{
+.bowl2 {/* Bloc pour definir l'emplacement de ma deuxieme boulle */
     position: absolute;
     top: 400%;
     left: 50%;
     
 }
 
-.line{
+.line{ /* Bloc pour definir les mesures et detail de ma ligne */
 
     position: absolute;
     width : 0.2rem;
@@ -46,7 +46,7 @@ body{
     transform: translate(-50%,-50%);
 }
 
-#page{
+#page{  /* Bloc pour definir les caracteristique de ma page */
     background-color: rgb(224, 220, 220);
     border : ridge rgb(224, 224, 224);
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
@@ -57,41 +57,41 @@ body{
     flex-direction: row; 
 }
 
-#presentation{
+#presentation{ /* Bloc pour definir la couleur et la taille de ma class */
     flex-basis: 100%;
     background-color: rgb(163, 160, 160);
 }
 
-#Photo img{
+#Photo img{ /* Bloc pour definir l'espace entre des mes class */
     border-radius: 50%;
 }
 
 
-#reseaux{
+#reseaux{ /* Bloc pour definir l'emplacement de ma class */
     position: absolute;
     top: 18.8%;
     left: 45.5%;
 }
-#linkedin {
+#linkedin { /* Bloc pour definir l'emplacement de ma class */
     position: absolute;
     left: -40%;
     top: 40%;
 }
-
-#Contact{
+ 
+#Contact{ /* Bloc pour definir l'emplacement de ma class */
     position: absolute;
     left: 110%;
     top: 40%;
 }
 
 
-#date{
+#date{ /* Bloc pour mettre ma date de maniere vertical */
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: rgb(92, 91, 91);
 }
 
-#date2{
+#date2{/* Bloc pour mettre ma seconde date de maniere vertical */
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: rgb(92, 91, 91);
@@ -99,7 +99,7 @@ body{
 
 
 
-#diplome_obtenu{
+#diplome_obtenu{ /* Bloc pour mettre une bordure et de definir l'emplacement de ma class */
     border: ridge rgb(224, 224, 224);
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
     flex-basis: 30%;
@@ -107,7 +107,7 @@ body{
     margin-left: 15%;
 }
 
-#diplome_en_cours_dacquisition{
+#diplome_en_cours_dacquisition{ /* Bloc pour mettre une bordure et de definir l'emplacement de ma class */
     border: ridge rgb(224, 224, 224);
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
     flex-basis: 30%;
@@ -115,27 +115,27 @@ body{
 }
 
 
-#bande_diplome_obtenu{
+#bande_diplome_obtenu{ /* Bloc pour definir la couleur et la taille de ma bordure */
     background-color: rgb(66, 66, 66);
     color: white;
 }
 
 
-.blanctab{
+.blanctab{ /* Bloc pour definir la couleur et la taille de ma bordure */
     border: ridge rgb(224, 224, 224);
     box-shadow : 4px 6px 3px rgb(219, 217, 217) ;
 }
 
-#bande_diplome-en-cours{
+#bande_diplome-en-cours{ /* Bloc pour definir la couleur et la taille de ma bordure */
     background-color: rgb(66, 66, 66);
     color: white;
 }
 
-#competence{
+#competence{ /* Bloc pour definir taille de ma class */
     flex-basis: 100%;
 }
 
-#langages{
+#langages{ /* Bloc pour definir la bordure, la taille et la coulleur de l'arriere plan  de ma class*/
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: ridge rgb(224, 224, 224);
 
@@ -145,7 +145,7 @@ body{
     flex-basis: 33%;
 }
 
-#application{
+#application{ /* Bloc pour definir la bordure, la taille et la coulleur de l'arriere plan  de ma class*/
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: ridge rgb(224, 224, 224);
     box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
@@ -154,7 +154,7 @@ body{
     flex-basis: 33%;
 }
 
-#langue{
+#langue{ /* Bloc pour definir la bordure, la taille et la coulleur de l'arriere plan  de ma class*/
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: ridge rgb(224, 224, 224);
     box-shadow : 2px 6px 3px rgb(219, 217, 217) ;
@@ -165,7 +165,7 @@ body{
 
 
 
-
+/* Tous ces blocs permet l'utilisation de mon menu deroulant */
 
 nav{
     background-color: #000000;
